@@ -8,6 +8,8 @@ NBP_URL = "https://api.nbp.pl/api/exchangerates/rates/a/"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
 START_DATE = "2015-01-01"
+TRADING_DAYS = 252
+STOCK_COLUMNS = ["date", "ticker", "currency", "open", "high", "low", "close", "adjclose", "volume"]
 
 TICKERS = {
     "PKO BP": "PKO.WA",
