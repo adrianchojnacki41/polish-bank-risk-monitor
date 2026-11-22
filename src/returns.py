@@ -1,13 +1,8 @@
-
-
-import pandas as pd
 import numpy as np
-import os
-import sys
-sys.path.append(os.path.abspath(".."))
-from src.build_dataset import build_dataset
-from src.config import TRADING_DAYS
+import pandas as pd
 import scipy.stats as stats
+
+from src.config import TRADING_DAYS
 
 
 

@@ -1,15 +1,4 @@
-
-import os
-import sys
-
-sys.path.append(os.path.abspath(".."))
-
 import pandas as pd
-
-from src.data_loader import load_fx, load_stocks
-
-import matplotlib.pyplot as plt
-from ipywidgets import interact
 
 def clean_stocks(data: pd.DataFrame) -> pd.DataFrame:
     """
